@@ -1,0 +1,161 @@
+#wrapper {
+    width: 1000px;
+    overflow: hidden; 
+    position: relative;
+    box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
+
+}
+
+#wrapper2 {
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#wrapper3 {
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+html, body {
+    margin: 0; height: 100%; overflow: hidden
+  }
+
+.parallax {
+    background-image: url('climbgymbg.jpg');
+    height: 100%;     
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+        background-image: url('climbgymbg2.jpg');
+        height: 100%;     
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.parallax3 {
+        background-image: url('climbgymbg.jpg');
+        height: 100%;     
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.main-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: #303030;
+}
+
+.main-text2 {
+    text-align: center;
+    position: absolute;
+    margin-bottom: -60px;
+}
+
+.container2 {
+    margin-top: 0;
+    height: 100%;
+    flex-basis: 50%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+
+.imgdiv1 {
+    width: 700px;
+    height: 300px;
+    float:left; /* add this */
+}
+.infodiv1 {
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    left: 85%;
+    top: 0;
+    margin-bottom: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    width:100%;
+}
+
+.child {
+    scroll-snap-align: start;
+    height:100%;
+    width:100%;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.child2 {
+    scroll-snap-align: start;
+    height:10%;
+    width:100%;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #303030;
+}
+
+ .FixedHeightContainer {
+   height: 600px;
+   width:1000px; 
+   padding:3px; 
+   box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
+ }
+
+ .FixedHeightContainer2 {
+    height: 400px;
+    width:1000px; 
+    padding:3px; 
+    box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
+  }
+
+ .Content {
+   height:600px;
+   overflow:auto;
+   background:#fff;
+ }
+
+
+.centerdiv {
+    padding: 70px 0;
+  }
+
+.centerdiv2 {
+    padding: 40px 0;
+}
+
+.centerdiv3 {
+    padding: 70px 0;
+    box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
+    width: 700px;
+    height: 300px;
+    background-color: white;
+}
+
+.centerdiv4 {
+    padding: 70px 0;
+}
+
+
+.underline {
+    text-decoration: underline;
+  }
+
